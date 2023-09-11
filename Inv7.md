@@ -48,14 +48,16 @@ For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gi
 
 I. Hva er den maksimale BW-effektiviteten som kan forventes for denne lenken?
 II. Hvilken informasjonshastighet kan overføres innefor en BW = 3100 Hz?
-
-I.
-
+	
+II.
 	C = B * log2(1+Eb/N0)
  	Eb/N0 = 10^(-0.45/10)
  	C = 2874.3 bps
-II.
 
+I.
+
+	BW-effektivitet=  C / B = 0.927 bps/Hz
+ 	
 	
  	
 
