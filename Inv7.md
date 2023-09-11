@@ -28,7 +28,6 @@ a) Teoretisk største feilfrie dataraten (R):
    	B = 3.1e3
     	C_max = 37.07e3 = 37073.8
      	C_max [bps]
-      
       	Symboltilstander:
        	C_max = B * log2(M)
 	M = 2^(C_max/B)
