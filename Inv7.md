@@ -1,6 +1,6 @@
-Dette er innlevering7
+# Dette er innlevering7
 
-[Oppgave1](files/inv7.md)
+## Oppgave1
 
 	dataskevens = [0,1,0,1,1,0,1,0,1,0];
 	bittid = 62e-6;
