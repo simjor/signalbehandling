@@ -1,4 +1,4 @@
-# Dette er innlevering7
+# innlevering7
 
 ## Oppgave nr.1
 
