@@ -20,7 +20,10 @@ Nyquist-teoremet
 ## Oppgave2
 Det skal konstrueres et modem som skal benytte en analog telefonkanal med båndbredde lik 3,1 kHz, og midlere signalstøy forhold lik 36 dB.
 
-a)
+a) Teoretisk største feilfrie dataraten (R):
+	Shannon hartely lov:
+ 	
+
 
 
 
