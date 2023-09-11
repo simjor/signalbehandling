@@ -5,5 +5,7 @@ Dette er innlevering7
 
 Finn den minste verdien for kanalens båndbredde som trengs for å overføre dette signalet når det brukes NRZ (non return to zero)?
 
+	symbolrate = 1 / bittid = 16129
+ 	symbolrate [symboler per sekund]
 
 
