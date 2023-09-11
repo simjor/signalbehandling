@@ -58,7 +58,15 @@ I.
 
 	BW-effektivitet=  C / B = 0.927 bps/Hz
  	
-	
+
+## Oppgave nr.4
+
+Vi ønsker å overføre en datastrøm på 56 kbps med bruk av spredt spektrum. Finn nødvendig båndbredde i kanalen hvis kanalen har et termisk signal-støyforhold (SNR) lik: -7 dB
+
+	B = C / log2(1+SNR)
+ 	B = 213kHz
+
+## Oppgave nr.5
  	
 
 
