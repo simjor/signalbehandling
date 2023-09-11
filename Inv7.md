@@ -24,17 +24,22 @@ a) Teoretisk største feilfrie dataraten (R):
 	
 Shannon hartely lov:
 
- 	C_max = B * log2(1 + S/N)
-  	SNR = 10^(36/10)
+	C_max = B * log2(1 + S/N)
+ 	SNR = 10^(36/10)
    	B = 3.1e3
     C_max = 37.07e3 = 37073.8
     C_max [bps]
+
 Symboltilstander:
 
-    	C_max = B * log2(M)
-    	M = 2^(C_max/B)
-    	M = 3981
+    C_max = B * log2(M)
+    M = 2^(C_max/B)
+    M = 3981
+    
+b) I praksis
+For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gir oss 2^12 = 4096
 
+	Praksis_datarate = B*log2(M) = 37200 bps
 
   	
 
