@@ -1,6 +1,6 @@
 # Dette er innlevering7
 
-## Oppgave1
+## Oppgave nr.1
 
 	dataskevens = [0,1,0,1,1,0,1,0,1,0];
 	bittid = 62e-6;
@@ -17,7 +17,7 @@ Nyquist-teoremet
   	BW [Hz]
 
 
-## Oppgave2
+## Oppgave nr.2
 Det skal konstrueres et modem som skal benytte en analog telefonkanal med båndbredde lik 3,1 kHz, og midlere signalstøy forhold lik 36 dB.
 
 a) Teoretisk største feilfrie dataraten (R):
@@ -42,7 +42,15 @@ For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gi
 	Praksis_datarate = B*log2(M) = 37200 bps
 
   	
+## Oppgave nr.3
 
+	Eb/N0 = -0.45 dB på ønsket lengde
+
+I. Hva er den maksimale BW-effektiviteten som kan forventes for denne lenken?
+II. Hvilken informasjonshastighet kan overføres innefor en BW = 3100 Hz?
+
+I.
+	BW-effekt: C/B = log2(1+Eb*C/N0*B)
 
 
 
