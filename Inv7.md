@@ -30,10 +30,12 @@ Shannon hartely lov:
     C_max = 37.07e3 = 37073.8
     C_max [bps]
 Symboltilstander:
+
     	C_max = B * log2(M)
     	M = 2^(C_max/B)
     	M = 3981
-  
+
+
   	
 
 
