@@ -1,5 +1,7 @@
 Dette er innlevering7
 
+[Oppgave1](files/inv7.md)
+
 	dataskevens = [0,1,0,1,1,0,1,0,1,0];
 	bittid = 62e-6;
 
@@ -7,7 +9,9 @@ Finn den minste verdien for kanalens båndbredde som trengs for å overføre det
 
 	symbolrate = 1 / bittid = 16129.03
  	symbolrate [symboler per sekund]
+
 Nyquist-teoremet
+
 	BW = symbolrate / 2
  	BW = 8064.52
   	BW [Hz]
