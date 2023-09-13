@@ -88,10 +88,14 @@ Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR
 
 En binær basisbånd-overføring har båndbredde lik 35 kHz og et RaisedCosinus filter med roll-offfaktor alpha = 0,65. Finn forventet kapasitet
 
-	BW = 35000 Hz
+	#RasiedCosinus filter kanalkapasitet
+	B = 35000 Hz
  	alpha = 0,65
-  	C = ?
-   	
+  	M = 2 #(binær basisbånd overføring)
+  	C = (2 * B * log2(M)) / (1 + alpha)
+   	C = 2 * 35000 * log2(2)) / (1 + 0,65)
+    	C = 42.4242 kbps
+     
  	
 
 	
