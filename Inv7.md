@@ -100,16 +100,14 @@ En binær basisbånd-overføring har båndbredde lik 35 kHz og et RaisedCosinus 
 ## Oppgave nr.7
 En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps når det brukes et RaisedCosinus filter med  alfa = 0,55. Hvor mye raskere kunne informasjonen bli sendt hvis verdien på alfa ble redusert til  alfa = 0,15?
 
-	# Regner ut B m/ alfa = 0,55
- 	R (dataraten) = 1 / Ts
-  	Bmin = 1 / (2*Ts) = 3200 Hz
-  	B1 = Bmin * (1 + alfa)
-   	B2 = 3200 * (1 + 0,55) = 4,96 kHz
-    
-    #Regner ut B m/ alfa = 0,15
-    Bmin = 3200 Hz
-    B2 = Bmin * (1 + alfa)
-    B2 = 3200 * (1 + 0,15) = 3,68 kHz
+	C1 = 6400 bps # m/ alfa = 0,55
+ 	C2 = Bmin * (1 + alfa)
+  	Bmin = C / 2 = 3200 Hz # begrunnelse basisbånd binær, M=2
+   	C2 = 3200 * (1 + 0,15) = 3680 bps
+
+     	# Forhold mellom C1 og C2
+      	C1/C2 = 6400 / 3680 = 1.7391
+ 	
     
 
 	
