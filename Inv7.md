@@ -136,7 +136,9 @@ b) Vi har Eb/N0= 11dB. Finn forventet BER.
 Bruker octave for å regne ut og får:
 	
  	BER = 2.6131e-07 = 0.261µ
- 	
+
+## Oppgave nr.9
+	
 
 
 	
