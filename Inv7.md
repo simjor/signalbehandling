@@ -69,7 +69,13 @@ Vi ønsker å overføre en datastrøm på 56 kbps med bruk av spredt spektrum. F
 
 ## Oppgave nr.5
 
-Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR som trengs, i dB. Finn også den tilsvarende verdien for Eb/N0i dB.
+Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR som trengs, i dB. Finn også den tilsvarende verdien for Eb/N0 i dB.
+
+	Eb/N0 = (2^(C/B) - 1) / (C/B)
+ 	Eb/N0 = (2^(3,75) - 1) / 3,75
+  	Eb/N0 = 3.32
+   	(Eb/N0)_dB = 10 * log10(3.32) = 5.21 dB
+    	
 
 	
  	
