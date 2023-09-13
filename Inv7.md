@@ -74,7 +74,7 @@ Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR
 	Eb/N0 = (2^(C/B) - 1) / (C/B)
  	Eb/N0 = (2^(3,75) - 1) / 3,75
   	Eb/N0 = 3.32
-   	(Eb/N0)_dB = 10 * log10(3.32) = 5.21 dB
+   	Eb/N0_dB = 10 * log10(3.32) = 5.21 dB
     	
 
 	
