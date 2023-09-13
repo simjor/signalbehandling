@@ -94,7 +94,7 @@ En binær basisbånd-overføring har båndbredde lik 35 kHz og et RaisedCosinus 
   	M = 2 #(binær basisbånd overføring)
   	C = (2 * B * log2(M)) / (1 + alpha)
    	C = 2 * 35000 * log2(2)) / (1 + 0,65)
-    	C = 42.4242 kbps
+    C = 42.4242 kbps
      
  	
 
