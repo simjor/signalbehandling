@@ -140,7 +140,7 @@ Bruker octave for å regne ut og får:
 ## Oppgave nr.9
 Et system for overføring av binære basisbånd-signal har en kapasitet lik 48kbps. Vi har Eb/N0 lik 7,5 dB. 
 
-a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal)).
+a) Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal)).
 
 	C = 48000 bps
  	EbN0 = 7,5 dB
@@ -149,11 +149,11 @@ a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal
     SNR = EbN0 * C/B = EbN0 * 2
     SNR_dB = EbN0 + 10 * log10(2) = 10.51 dB
 
-b)Hva er den minste båndbredden vi må ha?
+b) Hva er den minste båndbredden vi må ha?
 
 	Bmin = 24000Hz
 
-c)Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ signalering med Eb/N0 lik 7,5 dB.
+c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ signalering med Eb/N0 lik 7,5 dB.
 
 	Ps = Bit error rate
  	M = 2 #NRZ har 2 faser, 1 eller 0
@@ -168,11 +168,15 @@ Bruker Octave for å løse dette:
 	
   	
 
-d)Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
+d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
 	Ps = Bit error rate
  	M = 2 #NRZ har 2 faser, 1 eller 0
  	Ps = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0))
+
+Bruker Octave for å løse:
+
+	Ps = 1.4356e-05
 	
  	
 
