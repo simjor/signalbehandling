@@ -107,6 +107,7 @@ En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps 
     
     # Forhold mellom C1 og C2
     C1/C2 = 6400 / 3680 = 1.7391
+    Sendes 1.7391 ganger raskere hvis alfa blir redusert
  	
     
 
