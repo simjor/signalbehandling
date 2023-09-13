@@ -146,8 +146,8 @@ a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal
  	EbN0 = 7,5 dB
   	M = 2 # pga. binær
    	B = C / 2 = 24000 Hz
-    	SNR = EbN0 * C/B = EbN0 * 2
-     	SNR_dB = EbN0 + 10 * log10(2) = 10.51 dB
+    SNR = EbN0 * C/B = EbN0 * 2
+    SNR_dB = EbN0 + 10 * log10(2) = 10.51 dB
 
 b)Hva er den minste båndbredden vi må ha?
 
