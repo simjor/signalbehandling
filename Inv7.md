@@ -159,11 +159,11 @@ c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ s
  	M = 2 #NRZ har 2 faser, 1 eller 0
 	EbN0_dB = 7.5
 	EbN0 = 10 * log10(7.5)
-	Ps = (M-1)/M * erfc(sqrt((3*log2(M))/(2*(M^2 - 1)) * EbN0))
+	Ps_unrz = (M-1)/M * erfc(sqrt((3*log2(M))/(2*(M^2 - 1)) * EbN0))
 
 Bruker Octave for å løse dette:
 
-	Ps = 1.5475e-03
+	Ps_unrz = 1.5475e-03
 	
 	
   	
@@ -172,11 +172,11 @@ d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolar
 
 	Ps = Bit error rate
  	M = 2 #NRZ har 2 faser, 1 eller 0
- 	Ps = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0))
+ 	Ps_bnrz = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0))
 
 Bruker Octave for å løse:
 
-	Ps = 1.4356e-05
+	Ps_bnrz = 1.4356e-05
 	
  	
 
