@@ -91,6 +91,7 @@ En binær basisbånd-overføring har båndbredde lik 35 kHz og et RaisedCosinus 
 	#RasiedCosinus filter kanalkapasitet
 	B = 35000 Hz
  	alpha = 0,65
+  
   	M = 2 #(binær basisbånd overføring)
   	C = (2 * B * log2(M)) / (1 + alpha)
    	C = 2 * 35000 * log2(2)) / (1 + 0,65)
