@@ -149,9 +149,11 @@ a) Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signa
     SNR = EbN0 * C/B = EbN0 * 2
     SNR_dB = EbN0 + 10 * log10(2) = 10.51 dB
 
+
 b) Hva er den minste båndbredden vi må ha?
 
 	Bmin = 24000Hz
+
 
 c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ signalering med Eb/N0 lik 7,5 dB.
 
@@ -165,9 +167,6 @@ Bruker Octave for å løse dette:
 
 	Ps_unrz = 1.5475e-03
 	
-	
-  	
-
 d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
 	Ps = Bit error rate
