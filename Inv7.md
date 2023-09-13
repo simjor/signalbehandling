@@ -74,15 +74,25 @@ Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR
 	# Finne signal-støyforholdet
  	C/B = log2(1+SNR)
  	SNR = 2^(C/B) - 1
-  	SNR = 12.45
+  	SNR = 12.45 
    	SNR_dB = 10 * log(SNR) = 10.95 dB
 
     # Finne "effekt-effektiviteten"
  	Eb/N0 = (2^(C/B) - 1) / (C/B)
  	Eb/N0 = (2^(3,75) - 1) / 3,75
-  	Eb/N0 = 3.32
+  	Eb/N0 = 3.32 bit/s/Hz
    	Eb/N0_dB = 10 * log10(3.32) = 5.21 dB
     	
+
+## Oppgave nr.6
+
+En binær basisbånd-overføring har båndbredde lik 35 kHz og et RaisedCosinus filter med roll-offfaktor alpha = 0,65. Finn forventet kapasitet
+
+	BW = 35000 Hz
+ 	alpha = 0,65
+  	C = ?
+   	
+ 	
 
 	
  	
