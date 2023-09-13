@@ -138,7 +138,15 @@ Bruker octave for å regne ut og får:
  	BER = 2.6131e-07 = 0.261µ
 
 ## Oppgave nr.9
-	
+Et system for overføring av binære basisbånd-signal har en kapasitet lik 48kbps. Vi har Eb/N0 lik 7,5 dB. 
+
+a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal)).
+
+b)Hva er den minste båndbredden vi må ha?
+
+c)Finnforventet feilhyppighet for dette systemet hvis det brukes unipolarNRZ signalering med Eb/N0 lik 7,5 dB.
+
+d)Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
 
 	
