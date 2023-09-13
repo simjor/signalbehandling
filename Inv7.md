@@ -125,6 +125,16 @@ Benytter oss av octave og får følgende resultater:
 	
 
 b) Vi har Eb/N0= 11dB. Finn forventet BER.
+	
+ 	BER = Ps
+  	M = 2;
+	EbN0_dB = 11;
+	EbN0 = 10^(11/10);
+	BER = (M-1)/M .* erfc(sqrt(3/(M^2-1) .* EbN0*log2(M)))
+
+Bruker octave for å regne ut og får:
+	BER = 2.6131e-07 = 0.261µ
+ 	
 
 
 	
