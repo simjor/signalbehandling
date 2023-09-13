@@ -33,13 +33,13 @@ Shannon hartely lov:
 Symboltilstander:
 
     C_max = B * log2(M)
-    M = 2^(C_max/B)
-    M = 3981
+    M = 2^(C_max/2*B)
+    M = 63.09
     
 b) I praksis
-For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gir oss 2^12 = 4096
+For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gir oss 2^6 = 64
 
-	Praksis_datarate = B*log2(M) = 37200 bps
+	Praksis_datarate = B*log2(M) = 18.6 kbps
 
   	
 ## Oppgave nr.3
