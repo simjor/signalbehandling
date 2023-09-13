@@ -47,6 +47,7 @@ For å finne et helt tall, runder vi av til nærmeste hele potens av 2. Dette gi
 	Eb/N0 = -0.45 dB på ønsket lengde
 
 I. Hva er den maksimale BW-effektiviteten som kan forventes for denne lenken?
+
 II. Hvilken informasjonshastighet kan overføres innefor en BW = 3100 Hz?
 	
 II.
