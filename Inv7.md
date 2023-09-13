@@ -141,6 +141,7 @@ Bruker octave for å regne ut og får:
 Et system for overføring av binære basisbånd-signal har en kapasitet lik 48kbps. Vi har Eb/N0 lik 7,5 dB. 
 
 a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal)).
+
 	C = 48000 bps
  	EbN0 = 7,5 dB
   	M = 2 # pga. binær
@@ -150,7 +151,10 @@ a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal
 
 b)Hva er den minste båndbredden vi må ha?
 
+	Bmin = 24000Hz
+
 c)Finnforventet feilhyppighet for dette systemet hvis det brukes unipolarNRZ signalering med Eb/N0 lik 7,5 dB.
+	
 
 d)Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
