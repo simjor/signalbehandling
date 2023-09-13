@@ -141,6 +141,11 @@ Bruker octave for å regne ut og får:
 Et system for overføring av binære basisbånd-signal har en kapasitet lik 48kbps. Vi har Eb/N0 lik 7,5 dB. 
 
 a)Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signal)).
+	C = 48000 bps
+ 	EbN0 = 7,5 dB
+  	M = 2 # pga. binær
+   	B = C / 2 = 24000 Hz
+    	SNR = 
 
 b)Hva er den minste båndbredden vi må ha?
 
