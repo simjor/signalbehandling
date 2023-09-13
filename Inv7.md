@@ -106,6 +106,7 @@ En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps 
   	B1 = Bmin * (1 + alfa)
    	B2 = 3200 * (1 + 0,55) = 4,96 kHz
 
+
     	#Regner ut B m/ alfa = 0,15
      	Bmin = 
       	B2 = Bmin * (1 + alfa)
