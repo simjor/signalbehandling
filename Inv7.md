@@ -165,7 +165,7 @@ c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ s
 
 Bruker Octave for å løse dette:
 
-	Ps_unrz = 1.5475e-03
+	Ps_unrz = 5.6314e-13
 	
 d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
@@ -175,7 +175,7 @@ d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolar
 
 Bruker Octave for å løse:
 
-	Ps_bnrz = 1.4356e-05
+	Ps_bnrz = 3.9880e-04
 	
  	
 
