@@ -119,7 +119,8 @@ a) Vi ønsker en binær basisbånd-overføring med bipolar NRZ signaleringog BER
    	Eb/N0_dB = 10 * log10((M^2 - 1) / (3 * log2(M)) * erfcinv(Ps*M/(M-1))^2)
 
 Benytter oss av octave og får følgende resultater:
-	EbN0 = 11.298
+	
+ 	EbN0 = 11.298
  	EbN0_dB = 10.530 dB
 	
 
