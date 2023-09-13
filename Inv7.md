@@ -153,12 +153,19 @@ b)Hva er den minste båndbredden vi må ha?
 
 	Bmin = 24000Hz
 
-c)Finnforventet feilhyppighet for dette systemet hvis det brukes unipolarNRZ signalering med Eb/N0 lik 7,5 dB.
+c)Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ signalering med Eb/N0 lik 7,5 dB.
+
+	Ps = Bit error rate
+ 	M = 2 #NRZ har 2 faser, 1 eller 0
+ 	Ps = (M-1)/M * erfc(sqrt((3*log2(M))/(2*(M^2 - 1)) * Eb/N0))
 	
+  	
 
 d)Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
-
+	Ps = Bit error rate
+ 	M = 2 #NRZ har 2 faser, 1 eller 0
+ 	Ps = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0))
 	
  	
 
