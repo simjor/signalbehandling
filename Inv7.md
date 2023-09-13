@@ -109,7 +109,12 @@ En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps 
     C1/C2 = 6400 / 3680 = 1.7391
     Sendes 1.7391 ganger raskere hvis alfa blir redusert
  	
-    
+
+## Oppgave nr. 8
+a) Vi ønsker en binær basisbånd-overføring med bipolar NRZ signaleringog BER ≤ 10-6. Hva er den minste verdien Eb/N0kan ha (både lineær og i dB)?
+
+b) Vi har Eb/N0= 11dB. Finn forventet BER.
+
 
 	
  	
