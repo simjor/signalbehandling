@@ -71,7 +71,12 @@ Vi ønsker å overføre en datastrøm på 56 kbps med bruk av spredt spektrum. F
 
 Et system har en båndbredde-effektivitet C/B = 3,75 bps/Hz. Finn den minste SNR som trengs, i dB. Finn også den tilsvarende verdien for Eb/N0 i dB.
 
-	Eb/N0 = (2^(C/B) - 1) / (C/B)
+	C/B = log2(1+SNR)
+ 	SNR = 2^(C/B) - 1
+  	SNR = 12.45
+   	SNR_dB = 10 * log(SNR) = 10.95 dB
+    
+ 	Eb/N0 = (2^(C/B) - 1) / (C/B)
  	Eb/N0 = (2^(3,75) - 1) / 3,75
   	Eb/N0 = 3.32
    	Eb/N0_dB = 10 * log10(3.32) = 5.21 dB
