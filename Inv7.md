@@ -104,9 +104,9 @@ En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps 
  	C2 = Bmin * (1 + alfa)
   	Bmin = C / 2 = 3200 Hz # begrunnelse basisbånd binær, M=2
    	C2 = 3200 * (1 + 0,15) = 3680 bps
-
-	# Forhold mellom C1 og C2
-	C1/C2 = 6400 / 3680 = 1.7391
+    
+    # Forhold mellom C1 og C2
+    C1/C2 = 6400 / 3680 = 1.7391
  	
     
 
