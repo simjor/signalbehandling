@@ -154,7 +154,7 @@ a) Finn S/N i dB hvis vi bruker minst mulig båndbredde(binært basisbånd-signa
 
 b) Hva er den minste båndbredden vi må ha?
 
-	Bmin = 24000Hz
+	Bmin = C / log2(1+SNR) = 48000 / log2(1+10^(10.51/10)) = 13.29kHz
 
 
 c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ signalering med Eb/N0 lik 7,5 dB.
