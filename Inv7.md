@@ -163,11 +163,11 @@ c) Finnforventet feilhyppighet for dette systemet hvis det brukes unipolar NRZ s
  	M = 2 #NRZ har 2 faser, 1 eller 0
 	EbN0_dB = 7.5
 	EbN0 = 10^(7.5/10)
-	Ps_unrz = (M-1)/M * erfc(sqrt((3*log2(M))/(2*(M^2 - 1)) * EbN0))
+	Ps_unrz = (M-1)/M * erfc(sqrt(Eb/(2 * N0)) = 1/2 * erfc(sqrt(0.5*EbN0))
 
 Bruker Octave for å løse dette:
 
-	Ps_unrz = 5.6314e-13
+	Ps_unrz = 8.8611e-03
 	
 d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolarNRZ signalering med Eb/N0 lik 7,5 dB. 
 
