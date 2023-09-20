@@ -113,8 +113,9 @@ En basisbånd binær datalink er i stand til å støtte en bitrate lik 6400 bps 
  	
 
 ## Oppgave nr. 8
-a) Vi ønsker en binær basisbånd-overføring med bipolar NRZ signaleringog BER ≤ 10^(-6). Hva er den minste verdien Eb/N0 kan ha (både lineær og i dB)?
+a) Vi ønsker en binær basisbånd-overføring med bipolar NRZ signaleringog BER ≤ 10^(-6). Hva er den minste verdien Eb/N0 kan ha (både lineær og i dB)? 
 
+	#(formel hentet fra side 101 i kompendiet fra NTNU)
 	M = 2
  	BER = Ps = 10^(-6)
   	Eb/N0 =  (M^2 - 1) / (3 * log2(M)) * erfcinv(Ps*M/(M-1))^2
