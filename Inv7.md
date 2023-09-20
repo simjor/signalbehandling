@@ -173,7 +173,7 @@ d) Finn også forventet feilhyppighet for dette systemet hvis det brukes bipolar
 
 	Ps = Bit error rate
  	M = 2 #NRZ har 2 faser, 1 eller 0
- 	Ps_bnrz = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0))
+ 	Ps_bnrz = (M-1)/M * erfc(sqrt((3*log2(M))/(M^2-1) * Eb/N0)) = 1/2 * erfc(sqrt(EbN0))
 
 Bruker Octave for å løse:
 
