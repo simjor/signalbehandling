@@ -59,9 +59,7 @@ I.
 
 II.
 
-	C = B * log2(1+Eb/N0)
- 	Eb/N0 = 10^(-0.45/10)
- 	C = 2874.3 bps
+	C = 2256.8bps
  	
 
 ## Oppgave nr.4
