@@ -67,7 +67,7 @@ Dette fører til at vi kan sette det modulerte signalet til 0, fordi
 vi ikke får ut noe signal.</strong>
 
 
-Hvilken rolle spiller amplitudefaktorene i demodulasjonsprosessen?
+<p>Hvilken rolle spiller amplitudefaktorene i demodulasjonsprosessen?</p>
 
 - Amplitudefaktoren til informasjonssignalet (U0) og gjenvunnet bærebølge (U1) bestemmer styrken til det demodulerte signalet. Endringer i amplitude til informasjonssignalet (m) kan påvirke modulasjonsgraden og dermed bredden av sidebåndene i  signalet. Endring i U1 kan påvirke styrken til demodulerte signalet.
 
