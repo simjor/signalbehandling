@@ -45,16 +45,25 @@ Motattsignal = 0.5*U1*U0*(sin(2*wc*t)+ 0.5*m*(sin(2*wc*t+wm*t)-sin(wm*t-2*wc*t))
 Motattsignal = 0
 ```
 
-<strong>Min forståelse for at dette skjer:
+<strong>
+Min forståelse for at dette skjer:
 Når vi bruker trigonometriske funksjoner er det veldig enkelt å se om vi får 
 hentet in informasjonssignalet riktig eller ikke.
+
+
 Får vi et cos(x)*cos(x) vil vi få et ledd med 1 som vil representere at 
 det modulerte signlet er i lik fase som det informasjonssignalet.
+
+
 Får vi cos(x)*sin(x) vil vi få et et led med 0 som vil representere at det 
 modulerte signalet representerer informasjonssignalet, men i motsatt fase.
+
+
 Får vi sin(x)*cos(y) vil det bety at det modulerte signalet ikke representerer 
 informasjonssignalet og dermed vil hele det modulerte signalet filtreres ut gjennom 
-filteret. Dette fører til at vi kan sette det modulerte signalet til 0, fordi 
+filteret. 
+
+Dette fører til at vi kan sette det modulerte signalet til 0, fordi 
 vi ikke får ut noe signal.</strong>
 
 
