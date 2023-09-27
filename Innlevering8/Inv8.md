@@ -114,7 +114,7 @@ sidefrekvensen:
 um = m*u0/2 = 6.8V
 ```
 
-![IMG_0729.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e834a6-4303-4817-b4c7-3f330d1a8140/14987e9d-335b-4c03-996d-07d36a564c82/IMG_0729.jpeg)
+![IMG_0729.jpeg](C:\Users\Simen\Downloads\IMG_0730)
 
 - Ikke kontrollert med matlab
 
