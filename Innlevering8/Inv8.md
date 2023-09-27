@@ -134,7 +134,7 @@ P = U0^2/(2*R) * 2
 U0 = 20,24V
 ```
 
-![IMG_0730.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e834a6-4303-4817-b4c7-3f330d1a8140/10271445-2848-4dc6-86f7-fa4cf174b489/IMG_0730.jpeg)
+![IMG_0730.jpeg](https://github.com/simjor/signalbehandling/blob/main/Innlevering8/IMG_0730.jpeg)
 
 - Ikke testet i matlab
 
