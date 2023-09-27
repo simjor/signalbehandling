@@ -43,31 +43,24 @@ Motattsignal = 0.5*U1*U0*(sin(2*wc*t)+m*cos(wm*t)*sin(2*wc*t))
 cos(x)*sin(y) = 1/2[sin(x+y)-sin(x-y)]
 Motattsignal = 0.5*U1*U0*(sin(2*wc*t)+ 0.5*m*(sin(2*wc*t+wm*t)-sin(wm*t-2*wc*t)))
 Motattsignal = 0
-```
 
-<strong>
 Min forståelse for at dette skjer:
 Når vi bruker trigonometriske funksjoner er det veldig enkelt å se om vi får 
 hentet in informasjonssignalet riktig eller ikke.
 
-
 Får vi et cos(x)*cos(x) vil vi få et ledd med 1 som vil representere at 
 det modulerte signlet er i lik fase som det informasjonssignalet.
-
 
 Får vi cos(x)*sin(x) vil vi få et et led med 0 som vil representere at det 
 modulerte signalet representerer informasjonssignalet, men i motsatt fase.
 
-
 Får vi sin(x)*cos(y) vil det bety at det modulerte signalet ikke representerer 
 informasjonssignalet og dermed vil hele det modulerte signalet filtreres ut gjennom 
-filteret. 
+filteret. Dette fører til at vi kan sette det modulerte signalet til 0, fordi 
+vi ikke får ut noe signal.
+```
 
-Dette fører til at vi kan sette det modulerte signalet til 0, fordi 
-vi ikke får ut noe signal.</strong>
-
-
-<p>Hvilken rolle spiller amplitudefaktorene i demodulasjonsprosessen?</p>
+Hvilken rolle spiller amplitudefaktorene i demodulasjonsprosessen?
 
 - Amplitudefaktoren til informasjonssignalet (U0) og gjenvunnet bærebølge (U1) bestemmer styrken til det demodulerte signalet. Endringer i amplitude til informasjonssignalet (m) kan påvirke modulasjonsgraden og dermed bredden av sidebåndene i  signalet. Endring i U1 kan påvirke styrken til demodulerte signalet.
 
@@ -90,7 +83,60 @@ Finner demodulerte informasjonssignalet for begge tilfellene:
 
 ```
 TILFELLE 1:
+motatt_sig = U_DSB-SC * Ubb = Um*cos(wmt)*Uc*sin(wct)*sin(wct)
 
+// x=wct
+sin(x)*sin(x) = 1/2[sin(2x)]
 ```
 
-Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen?
+Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen? 
+
+Vetke
+
+# Oppgave2
+
+a)
+
+AM-DSB-FC
+
+Midlere effekt: 5,6W over 50 ohm
+
+m = 0,6
+
+Finn AM til de forskjellige frekvenskomponentene i spekteret hvis LF er sinusformet. Skisser signalets tidsrespons hvis LF har f = 1kHz og BB = 10kHz.
+
+```
+amplitude:
+P = P0*(1+2*(m/2)^2) = P0 * (1 + (0.6/2)^2) = 5,6W
+P0 = 5.14W
+U0 = sqrt(P0 * 2 * R) = sqrt(5.14 * 2 * 50) = 22.67V
+
+sidefrekvensen: 
+um = m*u0/2 = 6.8V
+```
+
+![IMG_0729.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e834a6-4303-4817-b4c7-3f330d1a8140/14987e9d-335b-4c03-996d-07d36a564c82/IMG_0729.jpeg)
+
+- Ikke kontrollert med matlab
+
+b)
+
+AM-DSB SC
+
+Midlere effekt = 8,2W på 50 ohm
+
+Finn A antar at LF er sinus
+
+Skisser signalets tidsrespons for frekvenser fm = 1kHz og BB = 10kHz
+
+```
+P = U0^2/(2*R) * 2
+8,2 = U0^2/50
+U0 = 20,24V
+```
+
+![IMG_0730.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/79e834a6-4303-4817-b4c7-3f330d1a8140/10271445-2848-4dc6-86f7-fa4cf174b489/IMG_0730.jpeg)
+
+- Ikke testet i matlab
+
+# Oppgave3
