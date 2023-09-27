@@ -162,7 +162,7 @@ Pb = 1/2*erfc(sqrt(Eb/2N0) = 1.5463e-05
 
 Et system bruker 8-ary ASK modulasjon og et ”root raised” cosinus-filter i både sender og mottaker, med en alfa = 0,45. Hva er den nødvendige båndbredden for å støtte en datarate lik 56 kbps?
 ```
-//antar Ideell brickwall filtrering
+Antakelse: Ideell brickwall filtrering
 B = (1+alfa) * datarate
 B = (1+0,45)*56kbps = 81kHz
 ```
