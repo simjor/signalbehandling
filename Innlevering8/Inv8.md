@@ -139,3 +139,25 @@ U0 = 20,24V
 - Ikke testet i matlab
 
 # Oppgave3
+### 3a)
+
+Et binært ASK modem bruker ikke-koherent deteksjon. Hvilken verdi må Eb/N0 ha for å oppnå en feilsannsynlighet mindre enn 8,5^10-5.
+
+```
+Pb = 1/2*e^(-Eb/2*N0) = 8,5^10-5
+EbN0 = -2*ln(2*8,5^10-5)
+EbN0 = 17,36
+```
+
+### 3b)
+
+b)Hva er den tilsvarende feilsannsynlighetenfor et koherent ASK opplegg med samme verdien for Eb/N0?
+
+```
+For koherent ASK:
+Pb = 1/2*erfc(sqrt(Eb/2N0) = 1.5463e-05
+```
+
+### 3c)
+
+Et system bruker 8-ary ASK modulasjon og et ”root raised” cosinus-filter i både sender og mottaker, med en alfa = 0,45. Hva er den nødvendige båndbredden for å støtte en datarate lik 56 kbps?
