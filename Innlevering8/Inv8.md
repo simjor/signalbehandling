@@ -117,9 +117,6 @@ Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen?
 
 Vetke
 
-Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen? 
-
-Vetke
 
 # Oppgave2
 
