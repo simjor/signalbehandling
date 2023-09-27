@@ -64,6 +64,7 @@ Hvilken rolle spiller amplitudefaktorene i demodulasjonsprosessen?
 - Amplitudefaktoren til informasjonssignalet (U0) og gjenvunnet bærebølge (U1) bestemmer styrken til det demodulerte signalet. Endringer i amplitude til informasjonssignalet (m) kan påvirke modulasjonsgraden og dermed bredden av sidebåndene i  signalet. Endring i U1 kan påvirke styrken til demodulerte signalet.
 
 ### Oppgave1b
+### Oppgave1b
 
 DSB-SC:
 
@@ -86,7 +87,35 @@ motatt_sig = U_DSB-SC * Ubb = Um*cos(wmt)*Uc*sin(wct)*sin(wct)
 
 // x=wct
 sin(x)*sin(x) = 1/2[sin(2x)]
+motatt_sig = Um*cos(vmt)*Uc*1/2(1 - sin(2*wct))
+motatt_sig = Um*Uc*1/2(cos(vmt) - cos(vmt)*sin(2*wct))
+
+//x = vmt, y = 2wct
+cos(x)*sin(y)
+motatt_sig = 1/2*Um*Uc*cos(vmt)-1/2(cos(x-y)+cos(x+y))
+motatt_sig = 1/2*Um*Uc*cos(vmt)-1/2(cos(wmt-2wct)+cos(wmt+2wct))
+motatt_sig = 1/2 Um*Uc*cos(vmt) - 1/4(cos(vmt-2wct)-cos(vmt+2wct))
+//blir filtrert bort dermed
+motatt_sig = 0
+
+TILFELLE 2:
+Motatt_sig = Um*cos(wmt)*Uc*sin(wct)*U1cos(wct)
+
+//x=wct
+sin(x)*cos(x)
+motatt_sig = Um*cos(wmt)*Uc*1/2(sin(2x)+sin(0))
+motatt_sig = Um*cos(wmt)*Uc*1/2(sin(2x))
+
+//x=wmt, y=2wct
+cos(x)*sin(y)
+motatt_sig = 1/4*Um*Uc*(sin(x+y)-sin(x-y))
+motatt_sig = 1/4*Um*Uc*(sin(wmt+2wct)-sin(wmt-2wct))
+
 ```
+
+Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen? 
+
+Vetke
 
 Hvilken rolle spiller amplitudefaktoren i demodulasjonsprosessen? 
 
