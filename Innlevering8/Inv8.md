@@ -133,12 +133,12 @@ Finn AM til de forskjellige frekvenskomponentene i spekteret hvis LF er sinusfor
 
 ```
 amplitude:
-P = P0*(1+2*(m/2)^2) = P0 * (1 + (0.6/2)^2) = 5,6W
+P = P0*(1+m^2/2) = P0 * (1 + (0.6^2)/2) = 4,7W
 P0 = 5.14W
-U0 = sqrt(P0 * 2 * R) = sqrt(5.14 * 2 * 50) = 22.67V
+U0 = sqrt(P0 * 2 * R) = sqrt(5.14 * 2 * 50) = 21.78V
 
 sidefrekvensen: 
-um = m*u0/2 = 6.8V
+um = m*u0/2 = 6.54V
 ```
 
 [![IMG_0729.jpeg](https://github.com/simjor/signalbehandling/blob/main/Innlevering8/IMG_0729.jpeg)
@@ -190,6 +190,6 @@ Pb = 1/2*erfc(sqrt(Eb/2N0) = 1.5463e-05
 Et system bruker 8-ary ASK modulasjon og et ”root raised” cosinus-filter i både sender og mottaker, med en alfa = 0,45. Hva er den nødvendige båndbredden for å støtte en datarate lik 56 kbps?
 ```
 Antakelse: Ideell brickwall filtrering
-B = (1+alfa) * datarate
-B = (1+0,45)*56kbps = 81kHz
+B = (1+alfa) * datarate / log2(M)
+B = (1+0,45)*56kbps / log2(8) = 27,07kHz
 ```
