@@ -95,8 +95,8 @@ cos(x)*sin(y)
 motatt_sig = 1/2*Um*Uc*cos(vmt)-1/2(cos(x-y)+cos(x+y))
 motatt_sig = 1/2*Um*Uc*cos(vmt)-1/2(cos(wmt-2wct)+cos(wmt+2wct))
 motatt_sig = 1/2 Um*Uc*cos(vmt) - 1/4(cos(vmt-2wct)-cos(vmt+2wct))
-//blir filtrert bort dermed
-motatt_sig = 0
+//Det intressante
+motatt_sig = cos(wmt)
 
 TILFELLE 2:
 Motatt_sig = Um*cos(wmt)*Uc*sin(wct)*U1cos(wct)
@@ -110,6 +110,7 @@ motatt_sig = Um*cos(wmt)*Uc*1/2(sin(2x))
 cos(x)*sin(y)
 motatt_sig = 1/4*Um*Uc*(sin(x+y)-sin(x-y))
 motatt_sig = 1/4*Um*Uc*(sin(wmt+2wct)-sin(wmt-2wct))
+motatt_sig = 0
 
 ```
 
